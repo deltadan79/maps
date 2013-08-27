@@ -1,34 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>FillmoreG.kml</name>
-	<Style id="sn_ylw-pushpin">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-		<LineStyle>
-			<color>7f0000ff</color>
-			<width>10</width>
-		</LineStyle>
-		<PolyStyle>
-			<color>1f0000ff</color>
-		</PolyStyle>
-	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_ylw-pushpin">
+	<name>Fillmore S.kml</name>
+	<Style id="s_ylw-pushpin_hl">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
@@ -38,21 +12,47 @@
 		</IconStyle>
 		<LineStyle>
 			<color>7f0000ff</color>
-			<width>10</width>
+			<width>5</width>
 		</LineStyle>
 		<PolyStyle>
-			<color>1f0000ff</color>
+			<color>0d0000ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>7f0000ff</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>0d0000ff</color>
 		</PolyStyle>
 	</Style>
 	<Placemark>
-		<name>FillmoreG</name>
-		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<name>Fillmore S</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						-112.3253039469444,38.95799284291825,0 -112.3249039384974,38.95813065239894,0 -112.324404166003,38.95840994013597,0 -112.3239367894586,38.95887035243518,0 -112.3236497629637,38.9593402169775,0 -112.3236813762552,38.96236138173042,0 -112.3320366656988,38.9622838905672,0 -112.3450953460775,38.96233569114842,0 -112.3465611048033,38.9573114207214,0 -112.34965740725,38.9486875311207,0 -112.347082379999,38.94797191551098,0 -112.3424365234787,38.95177157022749,0 -112.3354108791959,38.95721807022557,0 -112.3334916974004,38.95790573180872,0 -112.3291738827713,38.95798955450549,0 -112.3253039469444,38.95799284291825,0 
+						-112.3147549493863,38.96463392865067,0 -112.3139029852265,38.96452790572769,0 -112.3127546082072,38.96427256756908,0 -112.311187900664,38.96383849037012,0 -112.3083730568207,38.96292176127417,0 -112.3077339992875,38.96259314667242,0 -112.3073956833229,38.96248863188571,0 -112.3066705331611,38.9624631617383,0 -112.3044544468042,38.96255321759481,0 -112.3084936034427,38.96482721551227,0 -112.3137580487075,38.96630149468191,0 -112.3157642018445,38.9692377629325,0 -112.3177456723889,38.97105031774551,0 -112.3210172480142,38.97113418025914,0 -112.323699609318,38.97106892836956,0 -112.32370916064,38.96454640884856,0 -112.3147549493863,38.96463392865067,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
