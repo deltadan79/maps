@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>HoldenA2.kml</name>
+	<name>Holden A.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -18,7 +28,7 @@
 			<color>0d0000ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin">
+	<Style id="sn_ylw-pushpin3">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -34,25 +44,15 @@
 			<color>0d0000ff</color>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Placemark>
-		<name>HoldenA2</name>
+		<name>Holden A</name>
 		<styleUrl>#msn_ylw-pushpin</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						-112.2708772064266,39.09933101775857,0 -112.2708867401926,39.10515634854289,0 -112.2708320874123,39.10573363126166,0 -112.2704706341279,39.10651276218531,0 -112.2693667045237,39.10797455326966,0 -112.2751794936934,39.11227618690773,0 -112.2751778244603,39.10723332382457,0 -112.275157578427,39.09933361872582,0 -112.2708772064266,39.09933101775857,0 
+						-112.2752329430294,39.09215465061285,0 -112.2782638248028,39.09220244260489,0 -112.2784897826981,39.08490277541308,0 -112.2784578565304,39.08359037364213,0 -112.2781310054485,39.08314548764879,0 -112.2766009677683,39.0825113735838,0 -112.2740516068568,39.08597848142481,0 -112.2730893164957,39.08800822562176,0 -112.2709146743933,39.09444068182476,0 -112.2708793693114,39.09936932782789,0 -112.275179268117,39.09938377696165,0 -112.2752329430294,39.09215465061285,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
