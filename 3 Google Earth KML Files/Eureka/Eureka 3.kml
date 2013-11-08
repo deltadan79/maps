@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>Eureka C.kml</name>
-	<StyleMap id="msn_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ylw-pushpin3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ylw-pushpin</styleUrl>
-		</Pair>
-	</StyleMap>
+	<name>Eureka 3.kml</name>
 	<Style id="sh_ylw-pushpin">
 		<IconStyle>
 			<scale>1.3</scale>
@@ -28,7 +18,17 @@
 			<color>0d0000ff</color>
 		</PolyStyle>
 	</Style>
-	<Style id="sn_ylw-pushpin3">
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
@@ -45,14 +45,14 @@
 		</PolyStyle>
 	</Style>
 	<Placemark>
-		<name>Eureka C</name>
+		<name>Eureka 3</name>
 		<styleUrl>#msn_ylw-pushpin</styleUrl>
 		<Polygon>
 			<tessellate>1</tessellate>
 			<outerBoundaryIs>
 				<LinearRing>
 					<coordinates>
-						-112.1645006166367,39.92221865213384,0 -112.1430692965856,39.91605545033089,0 -112.1376453484078,39.91428607515949,0 -112.1301492039989,39.92181547651168,0 -112.1257864907638,39.92201566362745,0 -112.1224299853121,39.92160143207623,0 -112.1135603594511,39.92426003217197,0 -112.1113849937255,39.93120509228349,0 -112.1138906216761,39.93345683007677,0 -112.1174870896823,39.93092748165346,0 -112.1214269674845,39.92986473438294,0 -112.1306548253062,39.92839780795372,0 -112.1351788157526,39.92678316816566,0 -112.1480570537824,39.92898987472027,0 -112.1646739549426,39.93048376915722,0 -112.168702486846,39.92617697795157,0 -112.1645006166367,39.92221865213384,0 
+						-112.1645006166367,39.92221865213384,0 -112.1430692965856,39.91605545033089,0 -112.1376453484078,39.91428607515949,0 -112.1301492039989,39.92181547651168,0 -112.1257864907638,39.92201566362745,0 -112.1224299853121,39.92160143207623,0 -112.1135603594511,39.92426003217197,0 -112.1113849937255,39.93120509228349,0 -112.1138906216761,39.93345683007677,0 -112.1412701005083,39.94389629142349,0 -112.1488204017351,39.95970901884608,0 -112.1723085020066,39.952820389758,0 -112.1646739549426,39.93048376915722,0 -112.168702486846,39.92617697795157,0 -112.1645006166367,39.92221865213384,0 
 					</coordinates>
 				</LinearRing>
 			</outerBoundaryIs>
